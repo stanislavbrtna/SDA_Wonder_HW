@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/stanislaw/KiCad/timekillerXtreme/timekillerXtreme.sch)
-    (date Čt 30. srpen 2018, 23:21:11 CEST)
+    (source "/home/stanislaw/SDA/2.0 Wonder/Board/timekillerXtreme/timekillerXtreme.sch")
+    (date Po 3. září 2018, 15:06:48 CEST)
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -355,7 +355,7 @@
       (tstamp 5AC429B8))
     (comp (ref J2)
       (value USB_OTG)
-      (footprint Connectors_USB:USB_Micro-B_Molex-105017-0001)
+      (footprint timekiller-footprints:USB_Micro-B-CircularHoles)
       (libsource (lib conn) (part USB_OTG))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AC44BE6))
@@ -968,14 +968,14 @@
         (pin (num 8) (name DAT1) (type input))
         (pin (num 9) (name DET) (type input)))))
   (libraries
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical switches)
+      (uri /usr/share/kicad/library/switches.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical transistors)
       (uri /usr/share/kicad/library/transistors.lib))
-    (library (logical switches)
-      (uri /usr/share/kicad/library/switches.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical timekiller2)
       (uri /home/stanislaw/KiCad/Libs/timekiller2.lib)))
   (nets
