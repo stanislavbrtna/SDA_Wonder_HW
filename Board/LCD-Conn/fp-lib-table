@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name timekiller-footprints)(type KiCad)(uri /home/stanislaw/KiCad/timekiller-footprints.pretty)(options "")(descr ""))
+)
