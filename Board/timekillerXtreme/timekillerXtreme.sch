@@ -1497,7 +1497,7 @@ U 1 1 5AC58F1B
 P 13100 15150
 F 0 "J3" H 13100 15450 50  0000 C CNN
 F 1 "Conn_Bottom_Expansion" H 13100 14750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 13100 15150 50  0001 C CNN
+F 2 "timekiller-footprints:Pin_Header__1x06_Pitch2.54mm-NoSilk" H 13100 15150 50  0001 C CNN
 F 3 "" H 13100 15150 50  0001 C CNN
 	1    13100 15150
 	-1   0    0    1   
