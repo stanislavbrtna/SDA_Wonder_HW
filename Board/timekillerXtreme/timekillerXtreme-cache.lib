@@ -668,11 +668,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# uSD
+# uSD-RESCUE-timekillerXtreme
 #
-DEF uSD J 0 40 Y Y 1 F N
+DEF uSD-RESCUE-timekillerXtreme J 0 40 Y Y 1 F N
 F0 "J" -700 700 60 H V C CNN
-F1 "uSD" 500 700 60 H V C CNN
+F1 "uSD-RESCUE-timekillerXtreme" 500 700 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
