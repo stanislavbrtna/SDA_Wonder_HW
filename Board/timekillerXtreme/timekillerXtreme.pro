@@ -1,4 +1,4 @@
-update=Po 8. říjen 2018, 18:00:33 CEST
+update=Út 16. říjen 2018, 22:45:25 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=atmel
 LibName33=contrib
 LibName34=valves
 LibName35=/home/stanislaw/KiCad/Libs/timekiller2
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

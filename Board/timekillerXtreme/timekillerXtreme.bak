@@ -39,10 +39,10 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title "SDA1"
-Date "2017-06-25"
-Rev "0"
-Comp "Penachim i.n.c."
+Title "SDA-Wonder"
+Date "2018-10-14"
+Rev "1"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1086,7 +1086,7 @@ F 3 "" H 16200 12600 60  0001 C CNN
 	1    16200 12600
 	0    1    1    0   
 $EndComp
-Text GLabel 18200 13150 2    60   Input ~ 0
+Text GLabel 18450 13150 2    60   Input ~ 0
 BATT+
 $Comp
 L GND #PWR037
@@ -1491,12 +1491,12 @@ $EndComp
 $Comp
 L Conn_01x06 J3
 U 1 1 5AC58F1B
-P 1750 7150
-F 0 "J3" H 1750 7450 50  0000 C CNN
-F 1 "Conn_Bottom_Expansion" V 1900 7050 50  0000 C CNN
-F 2 "timekiller-footprints:Pin_Header__1x06_Pitch2.54mm-NoSilk" H 1750 7150 50  0001 C CNN
-F 3 "" H 1750 7150 50  0001 C CNN
-	1    1750 7150
+P 1850 7150
+F 0 "J3" H 1850 7450 50  0000 C CNN
+F 1 "Conn_Bottom_Expansion" V 2000 7050 50  0000 C CNN
+F 2 "timekiller-footprints:Pin_Header__1x06_Pitch2.54mm-NoSilk" H 1850 7150 50  0001 C CNN
+F 3 "" H 1850 7150 50  0001 C CNN
+	1    1850 7150
 	-1   0    0    1   
 $EndComp
 Text GLabel 14000 7900 2    60   Input ~ 0
@@ -1976,7 +1976,7 @@ Text Notes 19300 3950 0    60   ~ 0
 Internal expansion connector
 Text Notes 19150 6250 0    60   ~ 0
 LCD board connector
-Text Notes 1650 5550 0    60   ~ 0
+Text Notes 1750 5500 0    60   ~ 0
 Bottom Expansion and its ESD protection
 $Comp
 L TEST_1P J25
@@ -2111,10 +2111,10 @@ $EndComp
 Text GLabel 11600 10650 3    60   Input ~ 0
 SYS_LED
 $Comp
-L GND #PWR?
+L GND #PWR062
 U 1 1 5BC7142F
 P 14050 13750
-F 0 "#PWR?" H 14050 13500 50  0001 C CNN
+F 0 "#PWR062" H 14050 13500 50  0001 C CNN
 F 1 "GND" H 14050 13600 50  0000 C CNN
 F 2 "" H 14050 13750 50  0001 C CNN
 F 3 "" H 14050 13750 50  0001 C CNN
@@ -2130,10 +2130,10 @@ VBUS_SENSE
 Text GLabel 11300 10650 3    60   Input ~ 0
 VBATT_SENSE
 $Comp
-L GND #PWR?
+L GND #PWR063
 U 1 1 5BC799F6
 P 9650 11400
-F 0 "#PWR?" H 9650 11150 50  0001 C CNN
+F 0 "#PWR063" H 9650 11150 50  0001 C CNN
 F 1 "GND" H 9650 11250 50  0000 C CNN
 F 2 "" H 9650 11400 50  0001 C CNN
 F 3 "" H 9650 11400 50  0001 C CNN
@@ -2142,6 +2142,17 @@ F 3 "" H 9650 11400 50  0001 C CNN
 $EndComp
 Text GLabel 13550 13000 2    60   Input ~ 0
 VBATT_SENSE
+$Comp
+L Fuse F1
+U 1 1 5BC871A1
+P 18250 13150
+F 0 "F1" V 18330 13150 50  0000 C CNN
+F 1 "1A" V 18175 13150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 18180 13150 50  0001 C CNN
+F 3 "" H 18250 13150 50  0001 C CNN
+	1    18250 13150
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	8350 5500 8450 5500
 Wire Wire Line
@@ -2282,7 +2293,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 6850 2900 6850
 Wire Wire Line
-	1950 7250 2950 7250
+	2050 7250 2950 7250
 Connection ~ 4700 6100
 Wire Wire Line
 	4700 7050 4000 7050
@@ -2384,7 +2395,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 7350 2150 7550
 Wire Wire Line
-	1950 7350 2150 7350
+	2050 7350 2150 7350
 Wire Wire Line
 	12450 11500 13000 11500
 Wire Wire Line
@@ -2408,7 +2419,7 @@ Wire Wire Line
 Wire Wire Line
 	18050 13350 18250 13350
 Wire Wire Line
-	18050 13150 18200 13150
+	18050 13150 18100 13150
 Wire Wire Line
 	11050 3400 11550 3400
 Wire Wire Line
@@ -3274,17 +3285,17 @@ Wire Wire Line
 Wire Wire Line
 	13200 10050 13200 10250
 Wire Wire Line
-	1950 7150 2600 7150
+	2050 7150 2600 7150
 Wire Wire Line
-	1950 6850 2150 6850
+	2050 6850 2150 6850
 Wire Wire Line
 	2150 6850 2150 5900
 Wire Wire Line
-	1950 6950 2250 6950
+	2050 6950 2250 6950
 Wire Wire Line
 	2250 6950 2250 6300
 Wire Wire Line
-	1950 7050 2400 7050
+	2050 7050 2400 7050
 Wire Wire Line
 	2400 7050 2400 6850
 Wire Wire Line
@@ -3340,17 +3351,14 @@ Wire Notes Line
 	4950 7850 1450 7850
 Wire Notes Line
 	1450 7850 1450 5250
-Wire Wire Line
-	18250 11450 18250 11550
-Connection ~ 18250 11550
 Wire Notes Line
-	17450 11000 22450 11000
+	17300 11000 22450 11000
 Wire Notes Line
 	22450 11000 22450 14000
 Wire Notes Line
-	22450 14000 17450 14000
+	22450 14000 17300 14000
 Wire Notes Line
-	17450 14000 17450 11000
+	17300 14000 17300 11000
 Wire Wire Line
 	2400 4050 2400 3800
 Wire Wire Line
@@ -3482,4 +3490,9 @@ Wire Notes Line
 	12300 12850 14350 12850
 Wire Notes Line
 	12300 13500 14350 13500
+Connection ~ 18250 11550
+Wire Wire Line
+	18250 11450 18250 11550
+Wire Wire Line
+	18400 13150 18450 13150
 $EndSCHEMATC
