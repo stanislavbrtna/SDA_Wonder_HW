@@ -93,7 +93,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory Export/AllPcbs/))
+      (outputdirectory Export/Rev1/))
   )
 
   (net 0 "")
