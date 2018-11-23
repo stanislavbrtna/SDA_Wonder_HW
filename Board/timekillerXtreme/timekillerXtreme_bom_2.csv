@@ -1,0 +1,84 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,TME_Part_number
+1,Unpolarized capacitor,C,C5 C7 C8 C13 C15 C16 C19 C20 C23 C28 C31 C32,100n,C_0805_HandSoldering,12,,
+2,Unpolarized capacitor,C,C24,100u,C_1210_HandSoldering,1,,
+3,Unpolarized capacitor,C,C14 C21 C22 C29 C33,2.2u,C_0805_HandSoldering,5,,
+4,Unpolarized capacitor,C,C9 C10,3.3p,C_0805_HandSoldering,2,,
+5,Unpolarized capacitor,C,C3 C4 C18 C30,4.7u,C_0805_HandSoldering,4,,
+6,Unpolarized capacitor,C,C1 C2,47p,C_0805_HandSoldering,2,,
+7,Unpolarized capacitor,C,C6 C17,47u,C_1210_HandSoldering,2,,
+8,Unpolarized capacitor,C,C11 C12,8.2p,C_0805_HandSoldering,2,,
+9,Diode,D,D2,1N4148,D_MiniMELF,1,,
+10,LED generic,LED,D1,CHRG_LED,LED_D3.0mm_FlatTop,1,,
+11,LED generic,LED,D4,SYS_LED,LED_D3.0mm_FlatTop,1,,
+12,"Fuse, generic",Fuse,F1,1A,R_0805_HandSoldering,1,,
+13,"Generic connector, single row, 01x03",Conn_01x03,J1,Battery,Conn_Nokia_BL-5C,1,,
+14,point,TEST_1P,J7,CAPTEST,Measurement_Point_Round-SMD-Pad_Small,1,,
+15,"Generic connector, single row, 01x03",Conn_01x03,J13,CONN_01X03,Pin_Header_Straight_1x03_Pitch1.27mm,1,,
+16,"Generic connector, single row, 01x02",Conn_01x02,J10,Conn_01x02,Pin_Header_Straight_1x02_Pitch2.00mm,1,,
+17,"Generic connector, single row, 01x06",Conn_01x06,J3,Conn_Bottom_Expansion,Pin_Header__1x06_Pitch2.54mm-NoSilk,1,,
+18,"Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering)",Conn_02x08_Counter_Clockwise,J4,Conn_Internal_Expansion,Pin_Header_Straight_2x08_Pitch1.27mm,1,,
+19,"Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)",Conn_02x10_Top_Bottom,J5,Conn_LCD_Board,Pin_Header_Straight_2x10_Pitch2.00mm,1,,
+20,point,TEST_1P,J21,PD0,Measurement_Point_Round-SMD-Pad_Small,1,,
+21,point,TEST_1P,J20,PD1,Measurement_Point_Round-SMD-Pad_Small,1,,
+22,point,TEST_1P,J22,PD3,Measurement_Point_Round-SMD-Pad_Small,1,,
+23,point,TEST_1P,J19,PD4,Measurement_Point_Round-SMD-Pad_Small,1,,
+24,point,TEST_1P,J18,PE10,Measurement_Point_Round-SMD-Pad_Small,1,,
+25,point,TEST_1P,J23,PE11,Measurement_Point_Round-SMD-Pad_Small,1,,
+26,point,TEST_1P,J16,PE8,Measurement_Point_Round-SMD-Pad_Small,1,,
+27,point,TEST_1P,J17,PE9,Measurement_Point_Round-SMD-Pad_Small,1,,
+28,"Generic connector, single row, 01x06",Conn_01x06,J12,PROG,Pin_Header_Straight_1x06_Pitch1.27mm,1,,
+29,point,TEST_1P,J24,Pb12,Measurement_Point_Round-SMD-Pad_Small,1,,
+30,point,TEST_1P,J14,TP_3.3V,Measurement_Point_Round-SMD-Pad_Small,1,,
+31,point,TEST_1P,J9,TP_AUDIO_L,Measurement_Point_Round-SMD-Pad_Small,1,,
+32,point,TEST_1P,J8,TP_AUDIO_R,Measurement_Point_Round-SMD-Pad_Small,1,,
+33,point,TEST_1P,J25,TP_BATT,Measurement_Point_Round-SMD-Pad_Small,1,,
+34,point,TEST_1P,J11,TP_USB,Measurement_Point_Round-SMD-Pad_Small,1,,
+35,USB mini/micro connector,USB_OTG,J2,USB_OTG,USB_Micro-B-CircularHoles,1,,
+36,,uSD-RESCUE-timekillerXtreme,J6,uSD,ATTEND-SD-TME,1,,ATTEND 112J-TDAR-R01
+37,Inductor,L,L1,4.7uH,L4x4mm,1,,
+38,"-60V Vds, -0.18A Id, P-Channel MOSFET, SOT-23-3",NTR2101P,Q1,IRLML6302,SOT-23_Handsoldering,1,http://www.vishay.com/docs/70209/70209.pdf,
+39,Transistor NPN (general),Q_NPN_BCE,Q2,PMBT3904.215,SOT-23_Handsoldering,1,,
+40,Resistor,R,R10 R11 R17 R18,0,R_0603,4,,
+41,Resistor,R,R19,0,R_0805_HandSoldering,1,,
+42,Resistor,R,R1 R12 R13 R24,10k,R_0805_HandSoldering,4,,
+43,Resistor,R,R9,150K,R_0805_HandSoldering,1,,
+44,Resistor,R,R2 R14 R15,15k,R_0805_HandSoldering,3,,
+45,Resistor,R,R16,220,R_0805_HandSoldering,1,,
+46,Resistor,R,R3 R4,27R,R_0805_HandSoldering,2,,
+47,Resistor,R,R5,2k,R_0805_HandSoldering,1,,
+48,Resistor,R,R6,470R,R_0805_HandSoldering,1,,
+49,Resistor,R,R7 R20 R21 R22 R23,47k,R_0805_HandSoldering,5,,
+50,Resistor,R,R8,680K,R_0805_HandSoldering,1,,
+51,Single Pole Single Throw (SPST) switch,SW_SPST,SW2,A,SW_PUSH_6mm_h5mm,1,,
+52,Single Pole Single Throw (SPST) switch,SW_SPST,SW3,B,SW_PUSH_6mm_h5mm,1,,
+53,Single Pole Single Throw (SPST) switch,SW_SPST,SW6,DOWN,SW_PUSH_6mm_h5mm,1,,
+54,Single Pole Single Throw (SPST) switch,SW_SPST,SW4,LEFT,SW_PUSH_6mm_h5mm,1,,
+55,Single Pole Single Throw (SPST) switch,SW_SPST,SW1,PWR,SW_PUSH_6mm_h5mm,1,,
+56,Single Pole Single Throw (SPST) switch,SW_SPST,SW5,RIGHT,SW_PUSH_6mm_h5mm,1,,
+57,Single Pole Single Throw (SPST) switch,SW_SPST,SW8,RST,SW_PUSH_6mm_h4.3mm,1,,
+58,Single Pole Single Throw (SPST) switch,SW_SPST,SW7,UP,SW_PUSH_6mm_h5mm,1,,
+59,"Cmos switch, SOT23-5",AOZ1310,U7,AOZ1310,SOT-23-5_HandSoldering,1,,
+60,,FT230XS-R,U2,FT230XS-R,SSOP-16_5.3x6.2mm_Pitch0.65mm,1,,
+61,,MCP73831,U1,MCP73831,SOT-23-5_HandSoldering,1,,
+62,,NCP1529,U3,NCP1529,SOT-23-5_HandSoldering,1,,
+63,,STM32F407VGT6,U5,STM32F407VGT6,LQFP-100_14x14mm_Pitch0.5mm,1,,
+64,,TLV431,U4,TLV431,TSOT-23,1,,
+65,,USBLC6,U6 U8 U9,USBLC6,SOT-23-6_Handsoldering,3,,
+66,point,TEST_1P,VREF1,VREF,Measurement_Point_Round-SMD-Pad_Small,1,,
+67,Two pin crystal,Crystal,Y2,16MHz,Crystal_SMD_HC49-HS-mini,1,,
+68,Two pin crystal,Crystal,Y1,32.768 KHz,xtall_epso_mc146,1,,
+
+
+
+
+
+Component Groups:,68
+Component Count:,105
+Fitted Components:,105
+Number of PCBs:,1
+Total components:,105
+Schematic Version:,2
+Schematic Date:,2018-11-15
+BoM Date:,"P23.listopad2018,12:11:02CET"
+Schematic Source:,/home/stanislaw/SDA/2.0 Wonder/Board/timekillerXtreme/timekillerXtreme.sch
+KiCad Version:,Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1

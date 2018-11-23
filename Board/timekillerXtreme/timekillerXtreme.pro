@@ -1,4 +1,4 @@
-update=Út 16. říjen 2018, 22:45:25 CEST
+update=Pá 23. listopad 2018, 13:43:28 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,7 +67,7 @@ LibName35=/home/stanislaw/KiCad/Libs/timekiller2
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=Export/Rev2b/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
